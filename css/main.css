@@ -1,5 +1,6 @@
 .header{
     text-align: center;
+    margin-bottom: 30px;
 }
 .header h3{
     font-size: 13px;
@@ -21,8 +22,12 @@
 }
 .card{
     padding: 20px;
-    box-shadow: 0px 1px 2px;
+    border-color: aliceblue;
+}
+.card-title{
+    text-align: center;
 }
 .card p{
+    text-align: center;
     color:rgb(104 106 108);
 }
