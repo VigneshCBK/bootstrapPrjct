@@ -1,0 +1,28 @@
+.header{
+    text-align: center;
+}
+.header h3{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 8px 20px;
+    margin: 0;
+    color: #106eea;
+    display: inline-block;
+    border-radius: 50px;
+    font-family: "Roboto", sans-serif;
+}
+.header p{
+    font-size: 35px;
+    color: #282881;
+}
+.card-title{
+    color: #111179;
+}
+.card{
+    padding: 20px;
+    box-shadow: 0px 1px 2px;
+}
+.card p{
+    color:rgb(104 106 108);
+}
