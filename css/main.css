@@ -1,3 +1,4 @@
+/* Task-1 */
 .header{
     text-align: center;
     margin-bottom: 30px;
@@ -14,7 +15,8 @@
     font-family: "Roboto", sans-serif;
 }
 .header p{
-    font-size: 35px;
+    font-size: 30px;
+    width: 100%;
     color: #282881;
 }
 .card-title{
@@ -23,6 +25,7 @@
 .card{
     padding: 20px;
     border-color: aliceblue;
+    margin-bottom: 20px;
 }
 .card-title{
     text-align: center;
@@ -30,4 +33,52 @@
 .card p{
     text-align: center;
     color:rgb(104 106 108);
+}
+
+/* Task-2 */
+.con-head{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.con-head h3{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 8px 20px;
+    margin: 0;
+    color: #106eea;
+    font-family: "Roboto", sans-serif;
+}
+.con-head p{
+    font-size: 30px;
+    width: 100%;
+    color: #111179;
+}
+.featurebox{
+    display: flex;
+    margin-top: 20px;
+    padding: 20px 10px 5px 30px;
+    box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
+    transition: 0.3s;
+    height: 100%;
+}
+.featurebox i{
+    line-height: 0;
+    height: 30px;
+    width: 23px;
+    background: #ecf3ff;
+    padding: 4px;
+    padding-left: 6px;
+    margin-right: 10px;
+    font-size: 24px;
+    color: black;
+}
+.featurebox h3{
+    padding-top: 5px;
+    font-size: 14px;
+    color: #012970;
+    font-weight: 500;
+}
+#feature-img img{
+    width: 100%;
 }
