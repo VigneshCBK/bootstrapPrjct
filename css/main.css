@@ -59,7 +59,6 @@
     margin-top: 20px;
     padding: 20px 10px 5px 30px;
     box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
-    transition: 0.3s;
     height: 100%;
 }
 .featurebox i{
@@ -82,3 +81,66 @@
 #feature-img img{
     width: 100%;
 }
+.progress{
+    height: 60px;
+    display: block;
+    background-color: white;
+}
+.skill{
+    margin-top: 70px;
+}
+.progress-1 span{
+    font-size: 10px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+.progress-1 span i{
+    padding-top: 8px;
+    float: right;
+}
+.progress-bar{
+    background: #e2eefd;
+    height: 10px;
+    margin-bottom: 20px;
+}
+.p1{
+    height: 10px;
+   background-color: #106eea;
+}
+.count{
+    padding: 50px 10px 10px 10px;
+}
+.count-box{
+    justify-content: center;
+    padding: 30px 30px 25px 30px;
+    background-color: #f1f6fe;
+    margin-bottom: 20px;
+    position: relative;
+}
+.count-box i{
+    position: absolute;
+    right: 50%;
+    top: -28px;
+    transform: translateX(50%);
+    font-size: 24px;
+    background: #106eea;
+    color: #fff;
+    width: 56px;
+    height: 56px;
+    line-height: 0;
+    border-radius: 50px;
+    border: 5px solid #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.count-box span{
+
+    font-size: 42px;
+}
+.count-box p{
+    text-align: center;
+    font-size: 15px;
+}
+
+
