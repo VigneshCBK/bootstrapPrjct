@@ -23,7 +23,7 @@
     color: #111179;
 }
 .card{
-    padding: 20px;
+    /* padding: 20px; */
     border-color: aliceblue;
     margin-bottom: 20px;
 }
@@ -142,3 +142,61 @@
     text-align: center;
     font-size: 15px;
 }
+
+
+
+/* .story-card{
+    align-items: center;
+}
+.story-card img{
+    padding-top: 10px;
+    width: 40%;
+} */
+
+.card-img-top{
+ padding-top: 25px;
+    width: 40%;
+}
+.h-100{
+    align-items: center;
+    box-shadow: 0px 0 30px rgb(1 41 112 / 8%);
+
+} 
+.card-footer{
+    background-color: white;
+    width: 100%;
+    text-align: center;
+
+    padding: 20px;
+}
+.text-muted{
+    font-size: 15px;
+}
+.h-100 i{
+    font-size: 30px;
+    color: rgb(128, 134, 133);
+}
+.role h4{
+    padding: 5px;
+    font-size: 15px;
+    background-color:rgb(208, 225, 226);
+    border-radius: 10px;
+}
+.ico-sec{
+    padding-bottom: 20px;
+}
+.ico-sec .ion-arrow-right-c{
+    color: black;
+    display: inline-block;
+    width: 30px;
+    font-size: 30px;
+    padding: top 10px; 
+}
+h5{
+    width: 100%;
+}
+.hit{
+    color: black;
+    font-size: 25px;
+}
+
