@@ -22,15 +22,16 @@
 .card-title{
     color: #111179;
 }
-.card{
+.card-pic{
     /* padding: 20px; */
+    align-items: center;
     border-color: aliceblue;
     margin-bottom: 20px;
 }
 .card-title{
     text-align: center;
 }
-.card p{
+.card-pic p{
     text-align: center;
     color:rgb(104 106 108);
 }
@@ -200,3 +201,102 @@ h5{
     font-size: 25px;
 }
 
+
+/* Prjct */
+.header2{
+background-color: black;
+}
+.colum1 {
+    margin-right: 10px;
+    padding-top: 20px;
+    display: flex;
+}
+.colum1 i{
+    color: green;
+    position: relative;
+    top: -20px;
+    font-size: 50px;
+}
+.colum1 i:hover{
+    color: lightgreen;
+    transform: scale(1);
+}
+.ico{
+    color: white;
+    padding-left: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ico a{
+
+}
+.colum1 a{
+    text-decoration: none;
+}
+.colum2  a{
+    text-decoration: none;
+}
+.colum2 ul{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.colum2 ul li{
+    align-items: center;
+    list-style: none;
+}
+.colum2 ul li a{
+    color: rgb(108, 106, 106);
+}           
+.colum2 ul li a:hover{
+    color: white;
+}                       
+
+
+
+/* task-5 */
+.topic a{
+    font-size: 30px;
+    color: white;
+}
+.topic span{
+
+    font-size: 30px;
+    color: yellow;
+
+}
+.header5{
+    background-color: rgb(9, 49, 81);
+}
+.navbar-nav{
+    text-align: center;
+    display: flex;
+    display: block;
+    width: 100%;
+}
+.navbar-nav li a{
+    color: white;
+}
+.banner-in{
+    padding-top: 20%;
+}
+.banner-in h1{
+    color: rgb(159, 173, 196);
+}
+.banner-in p{
+    color: white;
+}
+.banner-btn a button{
+    color: #213b52;
+    border-radius: 50px;
+    padding: 8px 35px 10px 35px;
+    border: 2px solid #fdc134;
+    background: #fdc134;
+}
+.get-started1{
+    background: #213b52;
+    color: #fff;
+    padding: 4px 20px 6px 20px;
+    margin-left: 30px;
+    border-radius: 50px;
+    border: 2px solid #fdc134;
+}
