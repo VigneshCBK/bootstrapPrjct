@@ -267,7 +267,7 @@ background-color: black;
 .header5{
     background-color: rgb(9, 49, 81);
 }
-.navbar-nav{
+/* .navbar-nav{
     text-align: center;
     display: flex;
     display: block;
@@ -275,7 +275,8 @@ background-color: black;
 }
 .navbar-nav li a{
     color: white;
-}
+} */
+
 .banner-in{
     padding-top: 20%;
 }
