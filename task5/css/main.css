@@ -1,0 +1,188 @@
+.navbar-brand {
+    color: lightgreen;
+    font-weight: bolder;
+}
+
+.link1 {
+    color: lightgreen;
+}
+
+.nav-link {
+    font-weight: bolder;
+}
+
+.get-started1 {
+    background: lightgreen;
+    color: #fff;
+    padding: 4px 20px 6px 20px;
+    margin-left: 30px;
+    border-radius: 50px;
+    border-color: white;
+}
+
+/* banner */
+.banner {
+    background-image: url("../img/hero-bg.jpg");
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.banner-sec {
+    position: relative;
+    top: 170px;
+    left: 25px;
+}
+
+.banner-sec h1 {
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+}
+
+.banner-sec p {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.banner-sec a {
+    color: white;
+    text-decoration: none;
+    border: solid 1px;
+    padding: 4px 20px 6px 20px;
+    margin-left: 30px;
+    border-radius: 50px;
+    border-color: #fff;
+}
+
+/* About */
+.about {
+    padding-top: 50px;
+}
+
+.about-sec ul li {
+    list-style: none;
+}
+
+.about-sec p {
+    font-style: italic;
+}
+
+.about-sec ul li i {
+    padding-right: 10px;
+    color: lightgreen;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Details */
+.details {
+    margin-top: 30px;
+    padding-top: 30px;
+    background-color: aliceblue;
+}
+
+.detail-sec span {
+    font-size: 40px;
+}
+
+.detail-sec {
+    padding-bottom: 10px;
+}
+
+.det-span {
+    font-weight: bold;
+    color: lightgreen;
+    text-align: center;
+}
+
+.det-span p {
+    color: rgb(51, 50, 50);
+}
+
+
+/* mentor */
+.mentor {
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.get-started3 {
+    background: lightgreen;
+    color: #fff;
+    padding: 4px 20px 6px 20px;
+    margin-left: 30px;
+    border-radius: 50px;
+    border-color: white;
+}
+
+.men-btn {
+    align-items: center;
+}
+
+.men-card1 {
+    line-height: 35px;
+    background-color: rgb(97, 186, 97);
+
+}
+
+.men-card1 h5 {
+    color: #fff;
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.men-card1 p {
+    text-align: left;
+    color: #fff;
+
+}
+.men-card1 .btn1 {
+    border-radius: 17px;
+    background-color: lightgreen;
+    border-color: rgb(119, 208, 119);
+}
+.men-card2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    height: 100%;
+}
+.men-card2 h5{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 30px 0;
+}
+.men-card2 i{
+   display: inline-block;
+    padding: 6px;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 40px;
+    font-size: 32px;
+    border-radius: 50px;
+    color: rgb(58, 198, 58);
+    background-color: aliceblue;
+}
+
+/* features */
+.features{
+    margin-top: 30px;
+}
+.poto{
+    margin-top: 30px;
+    border: solid 1px;
+    width: 23.5%;
+    height: 50px;
+    margin-left: 10px;
+}
+.poto i{
+    
+    font-size: 35px;
+}
+.poto span{
+
+}
