@@ -57,6 +57,9 @@
     border-radius: 50px;
     border-color: #fff;
 }
+.banner-sec a:hover{
+    background-color: lightgreen;
+}
 
 /* About */
 .about {
@@ -174,15 +177,76 @@
 }
 .poto{
     margin-top: 30px;
+    padding-top: 10px;
     border: solid 1px;
+    border-color: aliceblue;
     width: 23.5%;
-    height: 50px;
+    height: 75px;
     margin-left: 10px;
 }
 .poto i{
-    
     font-size: 35px;
+    padding-left: 10px;
 }
 .poto span{
+font-size: 16px;
+font-weight: bold;
+position: relative;
+bottom: 5px;
+left: 10px;
+}
+
+/* courses */
+.courses{
+    padding-top: 80px;
+}
+.course-head h4{
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.course-head p{
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(74, 71, 71);
+}
+.crs-head{
+    display: flex;
+    justify-content:space-between;
+}
+.crs-head span{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.crs-head h3{
+    color: white;
+    font-size: 16px;
+    padding: 8px;
+    background-color: rgb(109, 193, 109);
+}
+
+.crs-ftr img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 
 }
+.crs-ftr span{
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #5a6c60;
+}
+.crs-ico{
+    display: inline-block;
+    padding-top: 10px;
+    color: #5a6c60;
+}
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Trainers */
