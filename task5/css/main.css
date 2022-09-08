@@ -2,24 +2,23 @@
     color: lightgreen;
     font-weight: bolder;
 }
-
 .link1 {
     color: lightgreen;
 }
-
 .nav-link {
     font-weight: bolder;
 }
-
+.navbar-brand{
+    font-size: 30px;
+}
 .get-started1 {
     background: lightgreen;
     color: #fff;
     padding: 4px 20px 6px 20px;
     margin-left: 30px;
     border-radius: 50px;
-    border-color: white;
+    border-color: whitesmoke;
 }
-
 /* banner */
 .banner {
     background-image: url("../img/hero-bg.jpg");
@@ -44,7 +43,7 @@
 
 .banner-sec p {
     color: #fff;
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -63,6 +62,7 @@
 
 /* About */
 .about {
+    margin-top: 50px;
     padding-top: 50px;
 }
 
@@ -83,7 +83,7 @@
 
 /* Details */
 .details {
-    margin-top: 30px;
+    margin-top: 80px;
     padding-top: 30px;
     background-color: aliceblue;
 }
@@ -110,7 +110,7 @@
 /* mentor */
 .mentor {
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 70px;
 }
 
 .get-started3 {
@@ -148,6 +148,9 @@
     background-color: lightgreen;
     border-color: rgb(119, 208, 119);
 }
+.men-card1 a i{
+    padding-left: 10px;
+}
 .men-card2{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -160,7 +163,7 @@
     margin: 0 0 30px 0;
 }
 .men-card2 i{
-   display: inline-block;
+    display: inline-block;
     padding: 6px;
     width: 60px;
     height: 60px;
@@ -173,7 +176,7 @@
 
 /* features */
 .features{
-    margin-top: 30px;
+    margin-top: 80px;
 }
 .poto{
     margin-top: 30px;
@@ -200,9 +203,22 @@ left: 10px;
 .courses{
     padding-top: 80px;
 }
+.course-head{
+    position: relative;
+}
 .course-head h4{
+    color: #afb4b1;
     font-size: 15px;
     letter-spacing: 2px;
+}
+.course-head h4::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    color: #777777;
+    display: inline-block;
+    margin: 4px 10px;
 }
 .course-head p{
     font-size: 35px;
@@ -232,6 +248,9 @@ left: 10px;
     border-radius: 50%;
 
 }
+.crs-body p{
+    color: #afb4b1;
+}
 .crs-ftr span{
     padding-left: 10px;
     font-weight: 600;
@@ -244,9 +263,99 @@ left: 10px;
     color: #5a6c60;
 }
 .card-footer{
+    background-color: #fff;
     display: flex;
     justify-content: space-between;
 }
 
 
 /* Trainers */
+.trainers{
+    margin-top: 80px;
+}
+.tri-card{
+    text-align: center;
+}
+.tri-card h5{
+    font-weight: 600;
+    margin-bottom: 3px;
+    font-size: 20px;
+}
+.tri-card span{
+      font-style: italic;
+      
+      font-size: 14px;
+}
+.tri-card p{
+    font-style: italic;
+    color: #afb4b1;
+}
+
+.tri-social{
+    word-spacing: 5px;
+}
+.tri-social i{
+    font-size: 25px;  
+    color: #5a6c60;
+
+}
+
+/* footer */
+.footer{
+    padding-top: 80px;
+    background-color: whitesmoke;
+    margin-top: 80px;
+}
+.footer h4{
+font-size: 16px;
+}
+.first-para p{
+    color: #777777;
+}
+.ftr-use ul li a{
+    color: #777777;
+ text-decoration: none;
+}
+.ftr-use ul li{
+    line-height: 40px;
+    list-style: none;
+}
+.ftr-use ul li i{
+    color: lightgreen;
+    font-size: 13px;
+    padding-right: 7px;
+}
+.ftr-opts h4{
+    padding-left: 10%;
+    font-size: 18px;
+}
+.last-frt{
+    background-color: #ebe9e9;
+}
+.copy-rights{
+    padding-top: 30px;
+}
+.creadit{
+    position: relative;
+    
+}
+.footer-icons{
+    padding-top: 30px;
+    display: inline-block;
+    text-align: end;
+}
+.footer-icons i{
+    background-color: rgb(100, 176, 100);
+    display: inline-block;
+    padding: 4px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.creadit a{
+    text-decoration: none;
+    color: rgb(104, 202, 104);
+}
